@@ -1,1 +1,144 @@
-/* Start coding here */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  top: 65.95px;
+  left: 250px;
+}
+
+img {
+  width: 50px;
+  position: relative;
+}
+
+.img-3 {
+  background-color: orange;
+  border-radius: 100%;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Header h1 {
+  position: relative;
+  z-index: 1;
+}
+
+#box-head {
+  display: flex;
+  position: relative;
+  background-color: orange;
+  width: 50px;
+  height: 15px;
+  bottom: 15px;
+  right: 83px;
+  z-index: 0;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  width: 1420px;
+  height: 736px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.Digital,
+.Art,
+.Accounting,
+.Photography,
+.Copy-Writing,
+.Music,
+.HR,
+.Explore {
+  width: 333px;
+  height: 268px;
+  top: 65.95px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+h3 {
+  padding-top: 110px;
+}
+
+.Explore {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-left: 50px;
+  gap: 5px;
+  background-color: rgb(252, 139, 47);
+  color: white;
+  border-radius: 15px;
+  font-size: 24px;
+}
+
+.arrow {
+  position: relative;
+  width: 40px;
+  left: 240px;
+  bottom: 35px;
+}
+
+.arrow-exp {
+  position: relative;
+  left: 180px;
+  bottom: 120px;
+  width: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+  }
+}
