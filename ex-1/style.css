@@ -138,6 +138,11 @@ main span {
     contrast(80%);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .box-1:hover {
   cursor: pointer;
   scale: 1.1;
